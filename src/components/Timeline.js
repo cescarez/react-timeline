@@ -7,7 +7,7 @@ const Timeline = (props) => {
   const timelineComponents = props.events.map ((timelineEvent, i) => {
     return ( 
       <li key={i}>
-        <TimelineEvent person={timelineEvent.person} status={timelineEvent.status} timestamp={timelineEvent.timeStamp}/>
+        <TimelineEvent person={timelineEvent.person} status={timelineEvent.status} timeStamp={timelineEvent.timeStamp}/>
       </li>
     );
   });
