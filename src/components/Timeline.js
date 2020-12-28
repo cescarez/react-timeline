@@ -7,7 +7,7 @@ const Timeline = (props) => {
   return(
     <div className='timeline'>
       {props.events.map ((timelineEvent, i) => (
-          <TimelineEvent person={timelineEvent.person} status={timelineEvent.status} timestamp={timelineEvent.timestamp}/>
+          <TimelineEvent person={timelineEvent.person} status={timelineEvent.status} timestamp={timelineEvent.timeStamp}/>
       ))}
     </div>
   );
